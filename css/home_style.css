@@ -1,0 +1,70 @@
+@font-face {
+  font-family: montMed;
+  src: url(../Montserrat/static/Montserrat-Medium.ttf);
+}
+body,
+#main {
+  display: flex;
+}
+body {
+  flex-flow: column;
+  justify-content: center;
+  height: auto;
+  align-items: center;
+  font-family: montMed;
+  margin: 0 0 0 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+#main {
+  gap: 1.8em;
+  flex-wrap: wrap;
+  margin: 0 3%;
+  justify-content: center;
+}
+h1 {
+  font-size: 2.3em;
+  margin: 1em 0 1em 0em;
+}
+.card {
+  background-color: antiquewhite;
+  height: min-content;
+  border-radius: 1em;
+  overflow: hidden;
+  color: white;
+  box-shadow: 0 0 6em -1.5em grey;
+}
+.card:nth-child(1) {
+  background-color: rgb(188, 26, 110);
+}
+.card:nth-child(2) {
+  background-color: rgb(204, 45, 74);
+}
+.card:nth-child(3) {
+  background-color: rgb(217, 59, 48);
+}
+.card:nth-child(4) {
+  background-color: rgb(222, 49, 81);
+}
+h2 {
+  font-size: 1.9em;
+  margin: 20px 0 0 15px;
+}
+p {
+  margin: 10px 0 7.5em 15px;
+}
+
+@media (max-width: 768px) {
+  body {
+    height: auto;
+    margin: 5em;
+  }
+  #main {
+    width: 500px;
+  }
+  h1 {
+    font-size: 1.3em;
+  }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/SignUp_style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main" role="main">
+      <div class="main__text">
+        <h1 class="text__title">Book your Hotel Today!</h1>
+        <p class="text__desc">
+          Spontaneous savings. Available nowhere else. Bookmark this page and
+          check back daily.
+        </p>
+      </div>
+      <div class="main__form">
+        <div class="form__tryButton">
+          Stay longer and save more! <span>20% extra discount</span>
+        </div>
+        <div class="form__signUp">
+          <div class="form__field">
+            <div class="form__firstName">
+              <input type="text" placeholder="First Name" />
+              <img src="../images/icon-error.svg" alt="" />
+            </div>
+            <p class="label"></p>
+          </div>
+
+          <div class="form__field">
+            <div class="form__lastName">
+              <input type="text" placeholder="Last Name" />
+              <img src="../images/icon-error.svg" alt="" />
+            </div>
+            <p class="label"></p>
+          </div>
+          <div class="form__field">
+            <div class="form__mail">
+              <input type="email" placeholder="Email Address" />
+              <img src="../images/icon-error.svg" alt="" />
+            </div>
+            <p class="label"></p>
+          </div>
+
+          <div class="form__field">
+            <div class="form__password">
+              <input type="password" placeholder="Password" />
+              <img src="../images/icon-error.svg" alt="" />
+            </div>
+            <p class="label"></p>
+            <p class="label signUpError"></p>
+          </div>
+
+          <button class="form__signUpButton">SIGN UP</button>
+
+          <p class="form__disclaimer">
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="../js/SignUp_js.js"></script>
+  </body>
+</html>

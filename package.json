@@ -1,0 +1,14 @@
+{
+  "name": "airbnb",
+  "version": "1.0.0",
+  "description": "Hotel Booking system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.7.0"
+  }
+}
